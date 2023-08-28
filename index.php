@@ -17,7 +17,7 @@
 exit;
 }
 function plugin_scripts() {
-	wp_enqueue_script('GSLPluginScripts', plugins_url('/assets/index-8c3d204c.js', __FILE__), array(), false, true);
+	wp_enqueue_script('GSLPluginScripts', plugins_url('/assets/index-f7ceed90.js', __FILE__), array(), false, true);
     wp_script_add_data('GSLPluginScripts', 'type', 'module');
     wp_script_add_data('GSLPluginScripts', 'crossorigin', 'anonymous'); 
 }
